@@ -1,0 +1,17 @@
+1.V8 is the JavaScript engine used by Mozilla Firefox browser.
+Ep:V8 is the JavaScript engine used by the Google Chrome browser. Mozilla Firefox uses JavaScript engine named SpiderMonkey. Thus, this statement is false and is, hence, one of the correct options.
+2.Just-In-Time compilation technique needs an interpreter to interpret the code.
+Ep:Using the Just-In-Time (JIT) compilation technique, JavaScript code gets directly compiled to the low-level machine code, which is in the binary form. This low-level machine code can be directly run on the machine without any need for interpreting it, thereby eliminating the need for an interpreter, and no intermediate code is generated. Thus, this statement is false and is, hence, one of the correct options.
+3.Node.js code runs on the server-side and requires a browser to display the output on.
+Ep:Node.js code is run on the server side, but it does not require any browser to display the output. Node.js is built on Google Chrome’s V8 JavaScript engine. V8 is unbound from the Google Chrome browser and is used by Node.js. This makes Node run its code without needing a browser. Thus, this statement is false and is, hence, one of the correct options.
+
+4. Manipulating DOM (Document Object Model) can be achieved using client-side JavaScript language only.-true
+Ep:With DOM, we can easily access and manipulate tags, IDs, classes, Attributes, or Elements of HTML using commands or methods provided by the Document object. Using DOM, the JavaScript gets access to HTML as well as CSS of the web page and can also add behavior to the HTML elements.
+
+5. Manipulating DOM (Document Object Model) can be achieved using Node.js only.-true
+Ep:The DOM stands for Document Object Model. It can simply be understood as a tree of nodes created by the browser. Each of these nodes has its own properties and methods which can be manipulated using JavaScript.
+FOR 4 AND 5-- Manipulating DOM requires DOM (Document Object Model) in the first place, which requires elements to be rendered on the client (browser). Thus, this can be achieved using client-side JavaScript language. This makes statement 1 true and statement 2 false.
+
+6.Local file system management can be achieved using client-side JavaScript language only.-FALSE
+7.Local file system management can be achieved using Node.js only.-TRUE
+for 6 and 7--Management of local file system requires interaction with the file system locally. This cannot be done on the client-side due to security reasons. This is why it is done on the server-side using Node.js. This makes statement 3 false and statement 4 true.
